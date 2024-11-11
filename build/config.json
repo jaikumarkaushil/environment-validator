@@ -1,0 +1,5 @@
+[
+    { "provider": "AWS", "region": "us-east-1", "instanceType": "t2.micro", "zone": "us-east-1a" },
+    { "provider": "Azure", "region": "eastus", "instanceType": "Standard_B1s" },
+    { "provider": "GCP", "region": "us-central1", "instanceType": "e2-micro", "zone": "us-central1-a" }
+]

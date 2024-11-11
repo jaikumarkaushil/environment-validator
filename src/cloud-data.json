@@ -1,0 +1,17 @@
+{
+    "AWS": {
+        "regions": ["us-east-1", "us-west-2"],
+        "instanceTypes": ["t2.micro", "t2.small"],
+        "zones": { "us-east-1": ["us-east-1a", "us-east-1b", "us-east-1c"] }
+    },
+    "Azure": {
+        "regions": ["eastus", "westeurope"],
+        "instanceTypes": ["Standard_B1s", "Standard_B2s"],
+        "zones": { "eastus": ["eastus-1", "eastus-2"] }
+    },
+    "GCP": {
+        "regions": ["us-central1", "europe-west1"],
+        "instanceTypes": ["e2-micro", "e2-small"],
+        "zones": { "us-central1": ["us-central1-a", "us-central1-b", "us-central1-c"] }
+    }
+}
